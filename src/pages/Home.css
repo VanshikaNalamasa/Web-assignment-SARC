@@ -1,0 +1,39 @@
+/* src/components/Home.css */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #222831;
+  }
+  
+  .container h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #00adb5; /* matching your navbar secondary color */
+    margin-bottom: 20px;
+  }
+  .container p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #cfd8dc; /* lighter, soft blue-gray */
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #00adb5; /* your secondary color */
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #028a95; /* a darker shade for hover */
+  }
+  

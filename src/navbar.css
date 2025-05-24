@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    font-weight: 500;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: var(--secondary);
+  }
+  
+  

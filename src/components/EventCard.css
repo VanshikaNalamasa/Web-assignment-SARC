@@ -1,0 +1,50 @@
+.event-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 24px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: left;
+}
+
+.event-card:hover {
+  transform: translateY(-8px);
+}
+
+.event-card h3 {
+  color: #00adb5;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.event-date {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.event-description {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.event-button {
+  display: inline-block;
+  background-color: #00adb5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.event-button:hover {
+  background-color: #028a95;
+}
+
+  
